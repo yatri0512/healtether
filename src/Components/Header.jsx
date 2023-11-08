@@ -278,7 +278,7 @@ function Header() {
                <Divider />
                <List>
                   <ListItem disablePadding>
-                     <NavLink to="/">
+                     <NavLink to="/" style={{ textDecoration: "none" }}>
                         <ListItemButton>
                            Home
                         </ListItemButton>
@@ -327,8 +327,8 @@ function Header() {
                      </PopupState>
                   </ListItem>
                   <ListItem disablePadding>
-                     <NavLink to="/about">
-                        <ListItemButton>
+                     <NavLink to="/about" style={{ textDecoration: "none" }}>
+                        <ListItemButton> 
                            About
                         </ListItemButton>
                      </NavLink>
