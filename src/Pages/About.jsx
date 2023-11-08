@@ -7,7 +7,7 @@ const About = () => {
       justifyContent= "center"
       padding='10%'
       sx={{
-        "@media (max-width: 800px)":{padding:'20%'}
+        "@media (max-width: 800px)":{paddingTop:'30%'}
       }}>
          <Box
             sx={{
