@@ -64,6 +64,8 @@ const Footer = () => {
                         "@media (max-width: 800px)": {
                            margin: "10px 25px 5px",
                            flexDirection: "column",
+                           alignItems:'center',
+                           justifyContent:'center'
                         },
                      }}>
                      <Box
@@ -81,8 +83,8 @@ const Footer = () => {
                                  width: "80%",
                               },
                               "@media (max-width: 800px)": {
-                                 height: "100%",
-                                 width: "100%",
+                                 height: "50%",
+                                 width: "50%",
                               },
                            }}
                         />
